@@ -5,4 +5,4 @@ The following dependencies (mostly github repoes) need to be installed manually:
    Then launch Tmux, press CTRL-s r, followed by CTRL-s I.
 2. `(sudo) apt update`
 3. `(sudo) apt install npm`
-4. `npm install -g pyright`
+4. Launch nvim `:MasonInstallAll`, this command may need to be run more than once
