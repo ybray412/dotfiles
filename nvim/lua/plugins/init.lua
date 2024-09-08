@@ -19,6 +19,11 @@ return {
   },
 
   {
+    "christoomey/vim-tmux-navigator",
+    event = "VeryLazy",
+  },
+
+  {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
@@ -49,12 +54,5 @@ return {
         require "configs.dapconfig"
     end,
   },
-
-  {
-    "alexghergh/nvim-tmux-navigation",
-    config = function()
-      require('nvim-tmux-navigation').setup({})
-    end,
-  }
-
+ 
 }
