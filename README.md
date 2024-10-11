@@ -12,6 +12,4 @@ The following dependencies (mostly github repoes) need to be installed manually:
 8. Launch nvim `:MasonInstallAll`, this command may need to be run more than once
 
 If installation runs into problems, run the following to delete all installed files:
-`rm -rf ~/.config/nvim`
-`rm -rf ~/.local/state/nvim`
-`rm -rf ~/.local/share/nvim`
+`rm -rf ~/.config/nvim  ~/.local/state/nvim ~/.local/share/nvim`
